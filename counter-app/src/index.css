@@ -1,0 +1,37 @@
+.button-container {
+    display: flex;
+    gap: 15px;
+}
+
+
+.add-button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.subtract-button {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reset-button {
+    background-color: rgb(0, 1, 3);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Optional: Add hover effect */
+.add-button:hover, .subtract-button:hover {
+    opacity: 0.8;
+}
