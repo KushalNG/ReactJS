@@ -1,0 +1,128 @@
+/* Container styling */
+.To-do-list {
+    width: 400px;
+    margin: 50px auto;
+    padding: 25px;
+    background-color: #f4f4f4;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+/* Heading */
+.To-do-list h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Input and Add button container */
+.To-do-list input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+/* Add Task Button */
+.add-button {
+    padding: 10px 15px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.add-button:hover {
+    background-color: #45a049;
+}
+
+/* Task List */
+ol {
+    list-style-type: decimal;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Task text */
+.text {
+    flex-grow: 1;
+    text-align: left;
+    font-size: 16px;
+}
+
+/* Buttons inside task items */
+.Delete-button,
+.move-up-button,
+.move-down-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    margin-left: 5px;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s;
+}
+
+.move-up-button {
+    background-color: #3498db;
+}
+
+.move-down-button {
+    background-color: #f39c12;
+}
+
+.Delete-button:hover {
+    background-color: #c0392b;
+}
+
+.move-up-button:hover {
+    background-color: #2980b9;
+}
+
+.move-down-button:hover {
+    background-color: #e67e22;
+}
+
+body{
+    background-image: url(assets/150_px_pari_4.jpg);
+}
+
+.clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+
+.clock {
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #00ff00; /* Green glowing text */
+    background-color: #1e1e1e;
+    padding: 30px 60px;
+    border-radius: 15px;
+    box-shadow: 0 0 25px #00ff00;
+    letter-spacing: 4px;
+    user-select: none;
+    transition: all 0.3s ease-in-out;
+}
